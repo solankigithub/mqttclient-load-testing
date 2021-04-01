@@ -52,7 +52,7 @@ public class App extends Thread implements MqttCallback
 	
     public static void main( String[] args )
     {
-    	int no_of_devices = 5000;
+    	int no_of_devices = 2000;
     	
     	List<String> macids = new ArrayList<String>();
     	
