@@ -52,12 +52,12 @@ public class App extends Thread implements MqttCallback
 	
     public static void main( String[] args )
     {
-    	int no_of_devices = 2000;
-    	
+    	int no_of_devices = 1000;
+    	System.out.println("No. of Devices : " + no_of_devices);
     	List<String> macids = new ArrayList<String>();
     	
     	for(int i=0; i<no_of_devices;i++) {
-    		macids.add("ZZ:ZZ:ZZ:ZZ:ZZ:" + String.valueOf(i));    		
+    		macids.add("AA:ZZ:ZZ:ZZ:ZZ:" + String.valueOf(i));    		
     	}
 										    	
     	for(int i=0; i<macids.size();i++) {
